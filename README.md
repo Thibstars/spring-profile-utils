@@ -18,6 +18,6 @@ Import this library into your project via maven using the following snippets in 
 	<dependency>
 	    <groupId>com.github.Thibstars</groupId>
 	    <artifactId>spring-profile-utils</artifactId>
-	    <version>1.0</version>
+	    <version>currentVersion</version>
 	</dependency>
 ````
