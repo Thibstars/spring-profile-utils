@@ -1,2 +1,3 @@
-### SpringProfileUtils ###
+### SpringProfileUtils ### [![](https://jitpack.io/v/Thibstars/spring-profile-utils.svg)](https://jitpack.io/#Thibstars/spring-profile-utils)
+
 Utilities enabling programmatic checks on Spring profiles.
