@@ -1,6 +1,6 @@
-package be.thibaulthelsmoortel.profiles.config;
+package com.github.thibstars.profiles.config;
 
-import be.thibaulthelsmoortel.profiles.SpringProfileUtils;
+import com.github.thibstars.profiles.SpringProfileUtils;
 import lombok.AllArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

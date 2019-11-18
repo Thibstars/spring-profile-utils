@@ -1,4 +1,4 @@
-package be.thibaulthelsmoortel.profiles;
+package com.github.thibstars.profiles;
 
 import java.util.Arrays;
 import lombok.AllArgsConstructor;
