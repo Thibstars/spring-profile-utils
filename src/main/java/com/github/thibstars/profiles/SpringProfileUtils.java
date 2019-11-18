@@ -34,10 +34,22 @@ public class SpringProfileUtils {
 
     private final Environment environment;
 
+    /**
+     * Returns true if the provided profile is activated in the current environment.
+     *
+     * @param profile the parameter to check
+     * @return true if the provided profile is activated, false if otherwise
+     */
     public boolean isProfileActive(String profile) {
         return Arrays.asList(environment.getActiveProfiles()).contains(profile);
     }
 
+    /**
+     * Returns true if the provided profiles are activated in the current environment.
+     *
+     * @param profiles the parameters to check
+     * @return true if the provided profiles are activated, false if otherwise
+     */
     public boolean areProfilesActive(String... profiles) {
         return Arrays.asList(environment.getActiveProfiles()).containsAll(Arrays.asList(profiles));
     }
