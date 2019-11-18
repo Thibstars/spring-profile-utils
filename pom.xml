@@ -72,11 +72,6 @@
             <artifactId>junit-platform-commons</artifactId>
             <version>${junit.platform.commons.version}</version>
         </dependency>
-        <dependency>
-            <groupId>org.hamcrest</groupId>
-            <artifactId>hamcrest-core</artifactId>
-            <scope>test</scope>
-        </dependency>
     </dependencies>
 
     <repositories>
