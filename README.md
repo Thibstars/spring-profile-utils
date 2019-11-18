@@ -2,6 +2,10 @@
 
 Utilities enabling programmatic checks on Spring profiles.
 
+## Usage
+This library introduces the `SpringProfileUtils` class which comes with utility methods on Spring profiles such as 
+`ìsProfileActive` and `areProfilesActive`.
+
 ## Installation
 Import this library into your project via maven using the following snippets in your `pom.xml`:
 
