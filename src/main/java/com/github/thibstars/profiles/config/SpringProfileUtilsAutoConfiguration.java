@@ -26,7 +26,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.core.env.Environment;
 
 /**
- * Autoconfiguration providing a bean of {@link SpringProfileUtils}.
+ * Auto configuration providing a bean of {@link SpringProfileUtils}.
  *
  * @author Thibault Helsmoortel
  */
