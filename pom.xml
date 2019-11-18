@@ -11,6 +11,10 @@
     <description>Utilities enabling programmatic checks on Spring profiles.</description>
 
     <properties>
+        <spring.boot.version>2.2.1.RELEASE</spring.boot.version>
+        <lombok.version>1.18.10</lombok.version>
+
+        <spring.test.version>5.2.1.RELEASE</spring.test.version>
         <junit.jupiter.version>5.5.2</junit.jupiter.version>
         <junit.platform.commons.version>1.5.2</junit.platform.commons.version>
         <maven.compiler.plugin.version>3.8.1</maven.compiler.plugin.version>
@@ -24,19 +28,19 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot</artifactId>
-            <version>2.2.1.RELEASE</version>
+            <version>${spring.boot.version}</version>
         </dependency>
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
-            <version>1.18.10</version>
+            <version>${lombok.version}</version>
         </dependency>
 
         <!-- Testing -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-test</artifactId>
-            <version>2.2.1.RELEASE</version>
+            <version>${spring.boot.version}</version>
             <scope>test</scope>
             <!-- Use junit 5 instead of 4 -->
             <exclusions>
@@ -49,7 +53,7 @@
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-test</artifactId>
-            <version>5.2.1.RELEASE</version>
+            <version>${spring.test.version}</version>
             <scope>test</scope>
         </dependency>
         <dependency>
