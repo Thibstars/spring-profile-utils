@@ -1,4 +1,5 @@
-# SpringProfileUtils [![](https://jitpack.io/v/Thibstars/spring-profile-utils.svg)](https://jitpack.io/#Thibstars/spring-profile-utils) [![](https://jitci.com/gh/Thibstars/spring-profile-utils/svg)](https://jitci.com/gh/Thibstars/spring-profile-utils)
+# SpringProfileUtils [![](https://jitpack.io/v/Thibstars/spring-profile-utils.svg)](https://jitpack.io/#Thibstars/spring-profile-utils) [![](https://jitci.com/gh/Thibstars/spring-profile-utils/svg)](https://jitci.com/gh/Thibstars/spring-profile-utils) [![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=Thibstars/spring-profile-utils)](https://dependabot.com)
+
 
 Utilities enabling programmatic checks on Spring profiles.
 
