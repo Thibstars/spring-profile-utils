@@ -23,18 +23,15 @@ import java.util.Arrays;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.core.env.Environment;
 import org.springframework.test.context.ActiveProfiles;
-import org.springframework.test.context.junit.jupiter.SpringExtension;
 
 /**
  * @author Thibault Helsmoortel
  */
 @ActiveProfiles({"test", "myTestProfile"})
-@ExtendWith(SpringExtension.class)
 @SpringBootTest(classes = SpringProfileUtils.class)
 class SpringProfileUtilsTest {
 
