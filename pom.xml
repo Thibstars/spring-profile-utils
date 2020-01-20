@@ -33,7 +33,7 @@
         <spring.boot.version>2.2.3.RELEASE</spring.boot.version>
         <lombok.version>1.18.10</lombok.version>
 
-        <spring.test.version>5.2.2.RELEASE</spring.test.version>
+        <spring.test.version>5.2.3.RELEASE</spring.test.version>
         <junit.jupiter.version>5.5.2</junit.jupiter.version>
         <junit.platform.commons.version>1.5.2</junit.platform.commons.version>
         <maven.compiler.plugin.version>3.8.1</maven.compiler.plugin.version>
