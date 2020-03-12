@@ -22,6 +22,7 @@ package com.github.thibstars.profiles;
 import java.util.Arrays;
 import lombok.AllArgsConstructor;
 import org.springframework.core.env.Environment;
+import org.springframework.core.env.Profiles;
 
 /**
  * Utility class enabling programmatic checks on Spring profiles.
@@ -41,7 +42,7 @@ public class SpringProfileUtils {
      * @return true if the provided profile is activated, false if otherwise
      */
     public boolean isProfileActive(String profile) {
-        return Arrays.asList(environment.getActiveProfiles()).contains(profile);
+        return environment.acceptsProfiles(Profiles.of(profile));
     }
 
     /**
@@ -51,6 +52,8 @@ public class SpringProfileUtils {
      * @return true if the provided profiles are activated, false if otherwise
      */
     public boolean areProfilesActive(String... profiles) {
-        return Arrays.asList(environment.getActiveProfiles()).containsAll(Arrays.asList(profiles));
+        return Arrays.stream(profiles)
+            .map(Profiles::of)
+            .allMatch(environment::acceptsProfiles);
     }
 }
